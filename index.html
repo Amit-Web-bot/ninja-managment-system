@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Konohagakure Employee Managment System</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center><H1>Kohana Employee Managment System</H1></center>
+        <hr>
+        <div id="root">
+            <form id="form">
+                <input type="text" placeholder="Ninja Name" name="name" required>
+                <input type="text" placeholder="Ninja Id" name="ninja_id" required>
+                <input type="text" placeholder ="Clan Name" name="clan" required>
+                <input type="text" placeholder="Designation" name="designation" required>
+                <input type="text" placeholder="Current Status" name="status" required>
+                <button>Add a Ninja</button>
+            </form>
+            <table>
+                <thead>
+                    <th>Ninja Name </th>
+                    <th>Ninja Id </th>
+                    <th>Clan Name  </th>
+                    <th>Designation</th>
+                    <th>Current Status</th>
+                    <th>Options</th>
+                </thead> 
+                <tbody id ="tbody">
+                    <!-- <tr>
+                        <td>Hashirama Senju</td>
+                        <td>KOH001</td>
+                        <td>Senju Clan</td>
+                        <td>Ex-Hokage</td>
+                        <td>Died</td>
+                    </tr> -->
+                </tbody>
+            </table>
+            <script src="script.js"></script>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+#root{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    gap: 20px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-self: center;
+}
+table, td, th{
+    align-self: start;
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+td{
+   text-align: center; 
+}
